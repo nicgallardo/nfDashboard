@@ -1,5 +1,38 @@
 .progress-meter text {
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nf-green {
+  color: #69BE28;
+}
+
+
+
+path {
+  stroke: #69BE28;
+  stroke-width: 1;
+  fill: none;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line {
+  stroke: lightgrey;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
 }

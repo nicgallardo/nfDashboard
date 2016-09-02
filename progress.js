@@ -1,12 +1,11 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
     var colors = {
         'pink': '#E1499A',
         'yellow': '#f0ff08',
-        'green': '#47e495'
+        'green': '#69BE28'
     };
 
-    var color = colors.pink;
+    var color = colors.green;
 
     var radius = 100;
     var border = 5;
@@ -70,7 +69,7 @@ $( document ).ready(function() {
         .attr('fill-opacity', 1);
 
     var numberText = meter.append('text')
-        .attr('fill', '#fff')
+        .attr('fill', color)
         .attr('text-anchor', 'middle')
         .attr('dy', '.35em');
 
