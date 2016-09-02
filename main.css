@@ -8,7 +8,26 @@
   color: #69BE28;
 }
 
+.nf-white {
+  color: #fff;
+}
 
+.status {
+  border: 2px;
+  border-style: solid;
+  border-color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.chart-border {
+  padding: 20px;
+  margin: 20px;
+}
+
+.nf-green-bg {
+  background-color: #69BE28;
+}
 
 path {
   stroke: #69BE28;
